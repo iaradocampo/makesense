@@ -1,0 +1,75 @@
+@mixin button ($bgcolor) {
+    background-color: $bgcolor;
+    width: 25rem;
+    height: 8rem;
+    border-radius: 4rem;
+    font-size: 2em;
+    border-color: transparent;
+    padding-top: 0.8rem;
+
+    &:hover {
+        background-color: $bgcolor;
+        border-color: transparent;
+    }
+
+    &:focus {
+        background-color: $bgcolor;
+        border-color: transparent;
+    }
+}
+
+.bg-start {
+    background-color: #196C84;
+    height: 100vh;
+    padding-top: 5rem;
+}
+
+.title-start {
+    color: white;
+    font-size: 4em;
+    padding-top: 7rem;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: white;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+.image-map {
+    width: 350px;
+    height: 350px;
+}
+
+.start-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.btn-emprendedor {
+    @include button(#F3976B);
+    color: #0C3944;
+
+    &:hover {
+        color: #0C3944;
+    }
+}
+
+.btn-ciudadano {
+    @include button(#70AF90);
+}
+
+.btn-position {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.margin-btn {
+    margin-top: 5rem;
+}

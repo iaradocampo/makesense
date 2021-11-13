@@ -1,0 +1,50 @@
+.bg-holdup {
+    background-color: #fcf6a0;
+    height: 100vh;
+}
+
+.holdup {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 5rem;
+}
+
+.text-holdup {
+    display: flex;
+    align-content: center;
+    width: 100%;
+}
+
+.postion-holdup {
+    margin: auto;
+    margin-right: 5rem;
+}
+
+.title-holdup {
+    color: #24673A;
+    font-size: 4em;
+    text-align: center;
+}
+
+.sub-holdup {
+    color: #24673A;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.image-holdup {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.spotlight {
+    width: 700px;
+    height: 600px;
+}
+
+.image-grass {
+    width: 100%;
+    margin-top: 7.4rem;
+}

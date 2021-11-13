@@ -1,0 +1,36 @@
+.nav {
+    background-color: #70af90;
+}
+
+.container-fluid{
+    margin: 0 3rem 0 3rem;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0 1.6rem;
+    padding: 1rem;
+}
+
+.btn-nav{
+    background-color: #f3976b;
+    border-color: transparent;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    box-shadow: none;
+
+    &:hover{
+        background-color: #f3976b;
+        border-color: transparent;
+        box-shadow: none;
+    }
+    &:focus{
+        background-color: #f3976b;
+        border-color: transparent;
+        box-shadow: none;
+    }
+}
